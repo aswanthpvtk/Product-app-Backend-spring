@@ -20,6 +20,12 @@ public class productcontroller {
         return " Product search page";
     }
 
+    @PostMapping("/edit")
+    public String Editproduct()
+    {
+        return " Product edit page";
+    }
+
 
 
 }
